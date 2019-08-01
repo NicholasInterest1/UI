@@ -37,8 +37,7 @@ p {
 }
 
 .container {
-  max-width: 1000px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -47,4 +46,28 @@ p {
   position: fixed;
   z-index: 1;
   width: 100%;
+}
+
+@media only screen and(max-width: 500px) {
+  .Mixed-Family {
+    display: none;
+  }
+
+  h2 {
+    margin-top: 43%;
+  }
+
+  .experiences {
+    display: none;
+  }
+
+  h5 {
+    margin-top: 37%;
+  }
+  header {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
